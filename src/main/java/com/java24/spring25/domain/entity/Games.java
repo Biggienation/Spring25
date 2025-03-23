@@ -1,4 +1,4 @@
-package com.java24.spring25.entity;
+package com.java24.spring25.domain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
