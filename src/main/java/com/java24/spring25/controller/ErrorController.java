@@ -1,4 +1,4 @@
-package com.java24.spring25;
+package com.java24.spring25.controller;
 
 import lombok.extern.java.Log;
 import org.springframework.stereotype.Controller;
