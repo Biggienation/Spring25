@@ -1,8 +1,7 @@
 package com.java24.spring25.controller;
 
 import com.java24.spring25.domain.entity.Games;
-import com.java24.spring25.domain.entity.GamesService;
-import com.java24.spring25.repository.GamesRepository;
+import com.java24.spring25.domain.GamesService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

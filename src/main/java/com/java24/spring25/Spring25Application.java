@@ -14,14 +14,4 @@ public class Spring25Application {
         SpringApplication.run(Spring25Application.class, args);
     }
 
-    @Bean
-    CommandLineRunner runner(GamesRepository repository){
-        return args -> {
-            if(repository.count() == 0){
-                Games games = new Games();
-                repository.save(games);
-            }
-        };
-    }
-
 }
